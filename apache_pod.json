@@ -11,12 +11,9 @@
 		"image": "fedora/apache",
 		"ports": [{
 		    "containerPort": 80,
-		    "hostPort": 80
+		    "hostPort": 8088
 		}]
 	    }]
 	}
-    },
-    "labels": {
-	"name": "fedoraapache"
     }
 }
